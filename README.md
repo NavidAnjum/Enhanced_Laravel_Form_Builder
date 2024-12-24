@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Laravel Form Builder Package
 
@@ -171,3 +172,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 Copyright © Doode
 
 All Doode packages are open-sourced software licensed under the [MIT license](LICENSE.md).
+=======
+# Enhanced_Laravel_Form_Builder
+An enhanced Laravel Form Builder with dynamic model, migration, and table management capabilities.
+>>>>>>> 73ac594fc817328010e46b84aea83d48eeb76685
