@@ -24,7 +24,23 @@ php artisan ui bootstrap --auth
 
 ### Step 1: Install the Package
 ```bash
-composer require doode/enhanced-laravel-form-builder
+composer require navidanjum/enhanced_laravel_form_builder:dev-main
+```
+
+#### Add the Repository to composer.json (Optional)
+If users face issues installing directly, they can manually add your GitHub repository to their composer.json file:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/NavidAnjum/Enhanced_Laravel_Form_Builder.git"
+    }
+]
+```
+Then run:
+```bash
+composer require navidanjum/enhanced_laravel_form_builder:dev-main
 ```
 
 ### Step 2: Run Migrations
@@ -34,7 +50,7 @@ php artisan migrate
 
 ### Step 3: Publish Assets and Configurations
 ```bash
-php artisan vendor:publish --provider="doode\FormBuilder\FormBuilderServiceProvider" --tag=formbuilder-views
+php artisan vendor:publish --provider="NavidAnjum\EnhancedFormBuilder\EnhancedFormBuilderServiceProvider" --tag=formbuilder-views
 php artisan vendor:publish --tag=formbuilder-public
 php artisan vendor:publish --tag=formbuilder-config
 ```
