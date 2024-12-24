@@ -11,7 +11,7 @@ composer require doode/laravel-formbuilder
 To install this enhanced version, follow the steps below:
 
 ### Requirements
-- Laravel 7+
+- Laravel 7
 - Bootstrap 4+
 - MySQL/MariaDB
 - Laravel Authentication
